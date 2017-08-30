@@ -1,13 +1,14 @@
 <?php
+// This file is in directory: /controller/ installed
 // On demande toutes les questions (modèle)
-// Cours OpenClassRoom sur OOP
-// Hey Mattew! Why didn't you construct an Object with question????
+// Asking all questions in /model/ ->data base mysql
+// Cours OpenClassRoom - OOP
+// We can construct an Object with questions
 
 include_once("model/$dir/get_question.php"); // include model/ludacm/get_question.php
 $question_save = get_question(0,500);//500 = all questions !
 
-// On effectue du traitement sur les données (contrôleur)
-// Ici, on doit surtout sécuriser l'affichage
+// Datas treatment. (Controller) and securing the display
 foreach($question_save as $cle => $question)
 {
     $question_save[$cle]['id'] = nl2br(htmlspecialchars($question['id']));
@@ -17,5 +18,5 @@ foreach($question_save as $cle => $question)
     $question_save[$cle]['faux_bis'] = htmlspecialchars($question['faux_bis']);
 }
 
-// On affiche la page (vue)
+// Displaying page (view)
 include_once("$www_real_path/view/game/game.php");
