@@ -1,0 +1,3 @@
+game.php et index.php feront un seul fichier. Game va inclure index.php en bas de page
+bon courage
+Marc

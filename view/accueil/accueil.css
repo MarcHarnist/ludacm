@@ -1,0 +1,103 @@
+/* 
+  Submit button color RGB(241,113,111)or #F1716F */
+*{	
+	font-family: "tahoma light", Arial, Trebuchet, lucida;
+}
+
+body { 
+	background-color:black;
+}
+
+#page{
+	display:block;
+	width:400px;
+	height:617px;/*Heigh of background image */
+	margin:0 auto;
+    padding-top:30px; /* For telephons icones */
+	background-image:url("background400px.jpg");
+	background-repeat:no-repeat;
+}
+#menu_game {
+	margin-top:0px;
+	padding:0 20px;
+}
+#footer {
+	margin-top:0px;
+}
+h1 { /* <h1 classe = "white center"> for two classes. No, no;  ! */
+	font-size:70px;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+h2 { /* <h1 classe = "white center"> for two classes. No, no;  ! */
+	font-size:20px;
+}
+
+a {
+	color:white;
+}
+input {
+	margin:5px;
+	padding:5px;
+	
+}
+/* Sizes */
+.size50{
+	width:50%;
+}
+/* Décorations */
+.nu {
+  text-decoration:none;
+}
+
+/* Positions classes */
+.break {
+	margin-bottom:50px;
+}
+.breakGreat {
+	margin-bottom:140px;
+}
+.right {
+	text-align:right;
+}
+.floatRight {
+	float:right;
+}
+.center {
+	text-align:center;
+}
+/*
+.left {
+	text-align:left;
+}*/
+
+/* Colors */
+.white {
+	color:white;
+}
+
+/* Buttons */
+.submit {
+	background-color:RGB(241,113,111);
+	box-shadow: 12px 12px 12px #555; /* Create a shadow ! */
+	border-radius: 30px;/* rouds the button */
+	border:0px;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	height:50px;
+	width:300px;
+	margin:25px 0 0 0;
+}
+/*
+.facebook {
+	background-color:blue;
+    border-radius: 10px;
+	border:0px;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	height:50px;
+	width:300px;
+}
+*/
