@@ -1,0 +1,1 @@
+Clean profil.php to minimum and include the file in menu.php?
