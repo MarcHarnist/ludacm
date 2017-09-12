@@ -1,0 +1,95 @@
+body { 
+	background-color:grey;
+	background-position: top left; /* left pour fond clair toujours à gauche même quand page réduite */
+	background-attachment: fixed;
+	margin:   20px 0px 0px 20px;
+	width:   800px;
+}
+.page {
+	min-height:400px; /* bien séparer les menus du haut et du bas */
+}
+
+p, form, h1, h2, h3, h4, h5, h6, #white, #fond-calculatrice {
+	font-family: helvetica, "Times New Roman", Times, serif;
+	padding:0 10px;
+}
+
+p img {
+	max-width: 700px ;
+	margin:0 auto;
+}
+
+hr {
+	margin-right:100px;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+}
+
+td {
+	background:white;
+	border:4px solid green;
+	padding:5px 15px;
+}
+th {
+	background:white;
+	font-weight:bold;
+	text-align:center;
+	border:4px solid blue;
+	padding:5px;
+}
+textarea {
+	padding:10px;
+}
+
+input {
+	margin:5px;
+	padding:5px;
+}
+.right {
+	text-align:right;
+}
+.left {
+	text-align:left;
+}
+.center {
+	text-align:center;
+}
+.red, .warning {
+	color:red;
+}
+.green {
+	color:green;
+}
+.blue {
+	color:blue;
+}.
+.yellow {
+	color:yellow;
+}
+.total {
+	font-weight:bold;
+}
+.cadre {  
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 200px; 
+ }  
+
+/*
+.cadre {
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: black;
+  border-left-color: black;
+  border-right-color: white;
+  border-bottom-color: white;
+ }
+.cadre {
+     border-style: 1px solid; 
+     border-color: green;
+}*/  
